@@ -1,0 +1,23 @@
+@import url('./skeleton.css');
+@import url('./normalize.css');
+@import url('./style.css');
+
+/* header
+----------------------------------------------- */
+
+
+/* title_newitems
+----------------------------------------------- */
+
+.title_newitems .items {
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-start;
+}
+
+/* otodoke_pay
+---------------------------------------------- */
+.otodoke_pay{
+    display: flex;
+    justify-content:space-between;
+}

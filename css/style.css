@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* base
+----------------------------------------------------- */
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  font-size:1.4rem;
+  line-height:1.6;
+  letter-spacing:.1em;
+
+}
+
+li{
+  list-style-type:none;
+}
+
+li a{
+  text-decoration:none;
+}
+
+img{
+  line-height: 0;
+}
