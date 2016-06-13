@@ -5,14 +5,54 @@
 /* header
 ----------------------------------------------- */
 
+header{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
 
-/* title_newitems
+.pc_menu ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+    margin-top: 25px;
+}
+
+
+/* title_newitems title_popular_items
 ----------------------------------------------- */
+.title_newitems,
+.title_popular_items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
 
-.title_newitems .items {
-    display: flex;
-    justify-content: space-between;
-    align-content:flex-start;
+.title_newitems .items,
+.title_popular_items .items
+{
+   display: flex;
+   flex-direction:row;
+   flex-wrap: wrap;
+   padding-top: 30px;
+
+}
+
+.item_detail{
+    width: 210px;
+    border-radius: 2px;
+    background: #ffffff;
+    padding: 15px;
+    margin: 1px;
+    text-align: center;
+}
+
+.item_detail img {
+  max-width: 100%;
+  height: auto;
+}
+.item_detail p {
+  text-align: left;
 }
 
 /* otodoke_pay
@@ -20,4 +60,85 @@
 .otodoke_pay{
     display: flex;
     justify-content:space-between;
+}
+
+/* side_menu
+---------------------------------------------- */
+.item_search{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.item_search img{
+    margin-left: 50px;
+}
+
+.item_search .search_box{
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.item_search form{
+    position: relative;
+}
+
+.item_search input{
+
+    position: absolute;
+    z-index: 100;
+
+}
+
+.item_search .search_img{
+    padding-left: 210px;
+    padding-top: 25px;
+}
+
+.side_title{
+    width: 300px;
+    height: 40px;
+    background-color: #887f69;
+}
+
+.page_link{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #887f69;
+}
+
+.page_link ul{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.page_link img{
+    padding-left: 180px;
+}
+
+.categories #categories_img{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.categories .side_title{
+    margin-bottom: 0;
+}
+
+.categories .ca_icon{
+    padding-left: 160px;
+}
+
+.categories .ca_list {
+    background-color: #fff;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 40px;
+    padding-top: 10px;
+    margin-bottom: 2px;
 }
