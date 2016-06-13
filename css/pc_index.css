@@ -142,3 +142,31 @@ header{
     padding-top: 10px;
     margin-bottom: 2px;
 }
+
+.about_icon,.shop_icon{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 70px;
+}
+
+.about_content,.shop_info_content{
+    margin-bottom:30px;
+    background-color: #fff;
+    width:300px;
+}
+
+.about_content p,.shop_info_content p{
+    text-align:center;
+}
+
+.about_img,.shop_info_img{
+    padding-top: 20px;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.more_btn{
+    margin-left:100px;
+    margin-bottom:10px;
+}
+
